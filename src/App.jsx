@@ -6,7 +6,7 @@ export default function App() {
     <div className="w-full h-dvh overflow-auto bg-white">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Link className='btn btn-primary' to="/shop">Shop Page </Link>} />
+          <Route path="/" element={<h1>Home Page</h1>} />
           <Route path="/shop" element={<ShopPage />} />
           {/* Dynamic Route */}
           <Route path="/shop/product/:productId" element={<ProductPage />} />
